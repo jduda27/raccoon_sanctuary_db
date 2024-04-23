@@ -13,6 +13,7 @@ In addition, we plan to keep track of the raccoons in our sanctuary and provide 
 #### [Account->Budget Relationship Creation](Account/alter_account_budget_relationship.sql)
 #### [Account->Sanctuary Relationship Creation](Account/alter_account_sanctuary_relationship.sql)
 #### [Data Insertion](Account/insert_into_account_table.sql)
+#### [Data Insertion](Account/insert_into_account_table.sql)
 ***
 ## Budget Table
 #### [Table Creation](Budget/create_budget_table.sql)
