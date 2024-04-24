@@ -1,0 +1,4 @@
+CREATE TABLE Task(
+    Task_ID INT PRIMARY KEY,
+    Task_Name VARCHAR(32)
+);
