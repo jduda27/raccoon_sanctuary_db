@@ -1,6 +1,6 @@
-CREATE TABLE Racoon (
-    Racoon_ID INT PRIMARY KEY,
-    Racoon_Name VARCHAR(50),
+CREATE TABLE Raccoon (
+    Raccoon_ID INT PRIMARY KEY,
+    Raccoon_Name VARCHAR(50),
     Weight DECIMAL(5, 2),
     Length DECIMAL(5, 2),
     Age INT,

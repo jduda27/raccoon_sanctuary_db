@@ -1,5 +1,7 @@
-INSERT INTO Enclosure (EnclosedID, NumberOfRaccoons, Enclosure_Name) VALUES (0001, 2, ‘Trashtopia’);
-INSERT INTO Enclosure (EnclosedID, NumberOfRaccoons, Enclosure_Name) VALUES (0002, 2, ‘Bagline’);
-INSERT INTO Enclosure (EnclosedID, NumberOfRaccoons, Enclosure_Name) VALUES (0003, 2, ‘Wastahachie’);
-INSERT INTO Enclosure (EnclosedID, NumberOfRaccoons, Enclosure_Name) VALUES (0004, 2, ‘Detroit’);
-INSERT INTO Enclosure (EnclosedID, NumberOfRaccoons, Enclosure_Name) VALUES (0005, 2, ‘Bandiesel’);
+INSERT INTO Enclosure (Enclosure_ID, Enclosure_Name, Employee_ID)
+VALUES (1, ‘Trashtopia’,2,1),
+       (1, 'Trashtopia',2,2),
+       (2, ‘Bagline’,2,1),
+       (3, ‘Wastahachie’,2,1),
+       (4, ‘Detroit’,2,1),
+       (5, ‘Bandiesel’,2,1);

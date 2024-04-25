@@ -47,14 +47,14 @@ You are now ready to run any of the visualization queries you would need.
 ## Enclosure Table
 #### [Table Creation](Enclosure/create_enclosure_table.sql)
 #### [Enclosure->Employee Relationship Creation](Enclosure/alter_table_enclosure_employee_relationship.sql)
-#### [Enclosure->Racoon Relationship Creation](Enclosure/alter_table_enclosure_racoon_relationship.sql)
+#### [Enclosure->Racoon Relationship Creation](Enclosure/alter_table_enclosure_raccoon_relationship.sql)
 #### [Data Insertion](Enclosure/insert_into_enclosure_table.sql)
 ***
-## Racoon Table
-#### [Table Creation](Racoon/create_racoon_table.sql)
-#### [Racoon->Enclosure Relationship Creation](Racoon/alter_table_racoon_enclosure_relationship.sql)
-#### [Racoon->Treatment Relationship Creation](Racoon/alter_table_racoon_treatment_relationship.sql)
-#### [Data Insertion](Racoon/insert_into_racoon_table.sql)
+## Raccoon Table
+#### [Table Creation](Raccoon/create_raccoon_table.sql)
+#### [Raccoon->Enclosure Relationship Creation](Raccoon/alter_table_raccoon_enclosure_relationship.sql)
+#### [Raccoon->Treatment Relationship Creation](Raccoon/alter_table_raccoon_treatment_relationship.sql)
+#### [Data Insertion](Raccoon/insert_into_raccoon_table.sql)
 ***
 ## Sanctuary Table
 #### [Table Creation](Sanctuary/create_sanctuary_table.sql)
@@ -76,5 +76,5 @@ You are now ready to run any of the visualization queries you would need.
 ## Treatment Table
 #### [Table Creation](Treatment/create_treatment_table.sql)
 #### [Treatment->Employee Relationship Table](Treatment/alter_table_treatment_employee_relationship.sql)
-#### [Treatment->Racoon Relationship Table](Treatment/alter_table_treatment_racoon_relationship.sql)
+#### [Treatment->Racoon Relationship Table](Treatment/alter_table_treatment_raccoon_relationship.sql)
 #### [Data Insertion](Treatment/insert_into_treatment_table.sql)
