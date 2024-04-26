@@ -1,3 +1,0 @@
-ALTER TABLE Shift
-    ADD Task_ID INT,
-    ADD FOREIGN KEY (Task_ID) REFERENCES Task(Task_ID)

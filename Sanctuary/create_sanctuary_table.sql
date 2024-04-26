@@ -1,5 +1,4 @@
 CREATE TABLE Sanctuary(
-    Sanctuary_ID Int Primary Key,
-    Address varchar(255),
-    Name varchar(255)
+    sanctuary_id INT PRIMARY KEY,
+    sanctuary_name INT NOT NULL
 );

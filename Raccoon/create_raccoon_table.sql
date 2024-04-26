@@ -1,8 +1,8 @@
 CREATE TABLE Raccoon (
-    Raccoon_ID INT PRIMARY KEY,
-    Raccoon_Name VARCHAR(50),
-    Weight DECIMAL(5, 2),
-    Length DECIMAL(5, 2),
-    Age INT,
-    Gender CHAR(1)
+    raccoon_id INT PRIMARY KEY AUTO_INCREMENT,
+    raccoon_name VARCHAR(255) NOT NULL,
+    age INT,
+    sex CHAR(1) NOT NULL,
+    length DECIMAL(5, 2) NOT NULL,
+    weight DECIMAL(6, 2) NOT NULL
 );

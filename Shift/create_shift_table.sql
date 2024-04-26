@@ -1,5 +1,6 @@
 CREATE TABLE Shift (
-    Shift_ID Int Primary Key,
-    Shift_Start_Time DATETIME,
-    Shift_End DATETIME
+    shift_id INT AUTO_INCREMENT,
+    start_time DATETIME NOT NULL,
+    end_time DATETIME NOT NULL,
+    PRIMARY KEY (shift_id,start_time, end_time)
 );

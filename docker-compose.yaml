@@ -1,10 +1,10 @@
 services:
-  racoon_sanctuary_db:
+  raccoon_sanctuary_db:
     image: mysql:8.0
     ports:
     - "4040:3306"
     environment:
-      - MYSQL_DATABASE=racoon_sanctuary
+      - MYSQL_DATABASE=raccoon_sanctuary
       - MYSQL_ROOT_PASSWORD=root
     volumes:
     - mysql_data:/var/lib/mysql

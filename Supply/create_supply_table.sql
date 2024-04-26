@@ -1,0 +1,6 @@
+CREATE TABLE Supply (
+    supply_id INT PRIMARY KEY AUTO_INCREMENT,
+    supply_name VARCHAR(255) NOT NULL,
+    price DECIMAL(6,2) DEFAULT 0.00,
+    quantity INT NOT NULL DEFAULT(0)
+);

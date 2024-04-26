@@ -1,4 +1,4 @@
 CREATE TABLE Enclosure (
-    Enclosure_ID INT PRIMARY KEY,
-    Enclosure_Name VARCHAR(50)
+    enclosure_id INT PRIMARY KEY AUTO_INCREMENT,
+    Enclosure_Name VARCHAR(255)
 );
