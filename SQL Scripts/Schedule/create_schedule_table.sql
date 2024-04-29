@@ -1,0 +1,3 @@
+CREATE TABLE Schedule (
+    schedule_id INT AUTO_INCREMENT PRIMARY KEY
+);

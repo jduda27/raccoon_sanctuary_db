@@ -1,0 +1,1 @@
+SELECT sanctuary_name FROM Sanctuary;
